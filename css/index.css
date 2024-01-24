@@ -1,0 +1,125 @@
+/*Instagram: @wezmert*/
+/*Github: @wezmert*/
+/*LinkedIn: @wezmert*/
+body{
+    background-color: #0b8070;
+}
+.metin{
+    font-family:'Trebuchet MS';  
+    font-size: 35px;
+    position: absolute;
+    left: 10px;
+    top: -15px;
+}
+.yatay{
+    position: absolute;
+        top: 25px;
+        left: 550px;
+        width: 700px;
+        height: 50px;
+        border-radius: 15px;
+        background-color: transparent;
+}
+.yataymenu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.yataymenu li{
+    float: left;
+    margin-left:5px;
+
+}
+.yataymenu a{
+    width: 120px;
+    height: 50px;
+    display: block;
+    background-color: transparent;
+    color: palevioletred;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size:25px;
+    text-align: center;
+    font-family:'Trebuchet MS';
+    transition: 0.5s;
+    font-weight: bold;
+
+}
+.yataymenu a:hover{
+    transition: 0.5s;
+    color: black;
+    text-shadow: 1px 1px 10px black;
+}
+.btn{
+    background-color: palevioletred;
+    border: 0 solid transparent;
+    color: black;
+    border-radius: 5px;
+    height: 33px;
+    width: 90px;
+    position: absolute;
+    left: 1400px;
+    top: 23px;
+    font-weight: bold;
+    font-family:'Trebuchet MS';
+    font-size: 18px;
+    
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.cizgi{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    height: 3px;
+    border-radius:15px ;
+}
+.cizgiyani{
+    position: absolute;
+    top:230px ;
+    font-size: 19px;
+    font-family: 'Trebuchet MS';
+    margin-left: 20px;
+    left: 220px;
+    word-spacing: 12px;
+}
+.aciklama{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode';
+    font-weight: bold;
+    font-size: 70px;
+    text-shadow: 10px 10px 20px rgb(33, 71, 66);
+}
+.btn2{
+    background-color: palevioletred;
+    border: 0 solid transparent;
+    color: black;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    position: absolute;
+    left: 100px;
+    top: 500px;
+    font-weight: bold;
+    font-family:'Trebuchet MS';
+    font-size: 18px;
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+    display:block;
+}
+.photo{
+    border-radius: 800px;
+    top: 150px;
+    left: 900px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    box-shadow: 2px 2px 100px aqua;
+}
